@@ -1,0 +1,82 @@
+mv_length = 45
+hight_diff = 4
+
+wood_hight = 5
+wood_length = 13
+
+hosei = 2
+
+if (turtle.getItemCount(13) <= wood_length) then
+  error(print("Error:Naegi_is_Low"))
+end
+
+
+--programs
+turtle.select(1)
+
+for i = 1,mv_length,1 do
+  turtle.forward()
+end
+
+for i = 1,hight_diff,1 do
+  turtle.down()
+end
+
+sleep(5)
+
+for i = 0,hosei,1 do
+  turtle.dig()
+  turtle.forward()
+end
+
+--cutter
+
+for i = 1,wood_length,1 do
+  turtle.select(1)
+  turtle.dig()
+  turtle.forward()
+  
+  for j = 1,wood_hight,1 do
+    turtle.digDown()
+    turtle.down()
+  end
+  
+  turtle.select(1)
+        
+  for k = 1,wood_hight,1 do
+    turtle.up()
+    turtle.select(13)
+    turtle.placeDown()
+  end
+end
+
+turtle.turnLeft()
+turtle.turnLeft()
+
+for i = 1,wood_length,1 do
+  turtle.forward()
+end
+
+--cutter_end
+turtle.select(1)
+
+for i = 0,hosei,1 do
+  turtle.dig()
+  turtle.forward()
+end
+
+for i = 1,hight_diff,1 do
+  turtle.up()
+end
+
+for i = 1,mv_length,1 do
+  turtle.forward()
+end
+
+turtle.turnLeft()
+turtle.turnLeft()
+
+for i = 1,4,1 do
+  turtle.select(i)
+  turtle.dropDown()
+end

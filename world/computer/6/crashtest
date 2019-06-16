@@ -1,0 +1,27 @@
+turtle.select(1)
+
+turtle.up()
+
+function threeplace(number)
+  for i = 1,number do
+    turtle.digUp()
+    turtle.digDown()
+    turtle.back()
+    turtle.dig()
+    turtle.turnRight()
+    turtle.forward()
+    turtle.turnLeft()
+    turtle.forward()
+  end
+end
+
+threeplace(17)
+turtle.turnRight()
+turtle.select(2)
+threeplace(15)
+turtle.turnRight()
+turtle.select(3)
+threeplace(16)
+turtle.turnRight()
+turtle.select(4)
+threeplace(14)

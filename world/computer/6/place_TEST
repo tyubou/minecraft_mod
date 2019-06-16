@@ -1,0 +1,8 @@
+turtle.forward()  
+
+turtle.select(1)
+turtle.place()
+
+turtle.select(2)
+turtle.drop()
+

@@ -1,0 +1,13 @@
+turtle.select(1)
+turtle.up()
+for i = 1,5 do
+  turtle.forward()
+  turtle.placeUp()
+  turtle.placeDown()
+  turtle.back()
+  turtle.place()
+  if i == 5 then break end
+  turtle.turnRight()
+  turtle.forward()
+  turtle.turnLeft()
+end

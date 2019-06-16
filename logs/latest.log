@@ -1,0 +1,8 @@
+[23:36:24] [User Authenticator #126/INFO]: UUID of player tyubou is 234979b5-1524-4270-89bf-f58093f9e369
+[23:36:24] [Server thread/INFO]: tyubou[/192.168.1.2:54362] logged in with entity id 10349918 at (1082.3877912109458, 79.0, 2825.6542697606665)
+[23:36:24] [Server thread/INFO]: tyubou joined the game
+[23:36:24] [Server thread/WARN]: Fetching addPacket for removed entity
+[23:36:24] [Server thread/WARN]: Fetching addPacket for removed entity
+[23:36:24] [Server thread/WARN]: Fetching addPacket for removed entity
+[23:39:29] [Server thread/INFO]: tyubou lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[23:39:29] [Server thread/INFO]: tyubou left the game

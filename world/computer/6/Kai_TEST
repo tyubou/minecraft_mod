@@ -1,0 +1,47 @@
+turtle.select(1)
+
+function threeplace()
+    turtle.up()
+    turtle.placeDown()
+    turtle.up()
+    turtle.placeDown()
+    turtle.up()
+    turtle.placeDown()
+    turtle.turnRight()
+    turtle.forward()
+    turtle.turnLeft()
+    turtle.down()
+    turtle.down()
+    turtle.down()
+end
+
+function ninety_turn()
+  turtle.back()
+  turtle.turnRight()
+  turtle.back()
+end 
+
+function limitter()
+  for i = 0,20 do
+    if(turtle.detectDown() == true) then
+      threeplace()  
+    else
+      break
+    end
+  end
+end
+
+limitter()
+turtle.select(2)
+ninety_turn()
+
+limitter()
+turtle.select(3)
+ninety_turn()
+
+limitter()
+turtle.select(4)
+ninety_turn()
+
+limitter()
+

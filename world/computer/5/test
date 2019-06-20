@@ -1,2 +1,0 @@
-turtle.select(1)
-turtle.turnRight()  

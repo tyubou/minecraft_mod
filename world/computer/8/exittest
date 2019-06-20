@@ -1,6 +1,0 @@
-print("aaaa")
-
-
-error(print("aaaa"))
-
-print("aadf")

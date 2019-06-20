@@ -1,3 +1,0 @@
-#Mod Configuration
-#Mon Oct 29 00:07:02 JST 2018
-sugarBiomeId=55
